@@ -1,4 +1,4 @@
-# queue-terraform-worker
+# patient-notification-queue
 
 A minimal monorepo demonstrating a producer/consumer queue pattern for a healthcare patient notification system.
 
