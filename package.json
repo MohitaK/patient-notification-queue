@@ -1,0 +1,9 @@
+{
+  "name": "queue-terraform-worker",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "producer": "npm run dev --workspace=packages/producer",
+    "worker": "npm run dev --workspace=packages/worker"
+  }
+}
